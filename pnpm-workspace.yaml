@@ -1,0 +1,22 @@
+packages:
+  - .
+
+allowBuilds:
+  '@tailwindcss/oxide': true
+  esbuild: true
+  onnxruntime-node: true
+  '@huggingface/tokenizers': true
+
+blockExoticSubdeps: true
+
+minimumReleaseAge: 10080 # 7 days in minutes
+minimumReleaseAgeExclude:
+  - '@receptron/laya@0.1.2'
+
+overrides:
+  semver: '>=7'
+  uuid: ^14.0.1
+
+strictPeerDependencies: false
+
+trustPolicy: no-downgrade
