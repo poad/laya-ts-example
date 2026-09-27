@@ -1,0 +1,48 @@
+{
+  "name": "vite-template-solid",
+  "version": "0.0.0",
+  "description": "",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "dev:all": "node server/laya-server.mjs & vite",
+    "server": "node server/laya-server.mjs",
+    "build": "vite build",
+    "serve": "vite preview",
+    "lint": "tsc --noEmit && oxfmt --check && oxlint",
+    "lint-fix": "tsc --noEmit oxfmt && oxlint --fix"
+  },
+  "dependencies": {
+    "@receptron/laya": "^0.1.2",
+    "@solidjs/router": "^0.15.4",
+    "solid-js": "^1.9.15"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^26.6.2",
+    "eslint-plugin-solid": "^0.18.0",
+    "oxfmt": "^0.68.0",
+    "oxlint": "^1.83.0",
+    "postcss": "^8.5.28",
+    "solid-devtools": "^0.34.5",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^7.0.2",
+    "vite": "^7.3.6",
+    "vite-plugin-pages": "^0.33.3",
+    "vite-plugin-solid": "^2.11.14"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "12.6.0",
+      "onFail": "download"
+    },
+    "runtime": {
+      "name": "node",
+      "version": "^24.21.0",
+      "onFail": "download"
+    }
+  }
+}
