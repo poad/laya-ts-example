@@ -139,7 +139,11 @@ const server = http.createServer(async (req, res) => {
       const message = err instanceof Error ? err.message : String(err);
       // モデル由来の制限エラー (head_max_len 等) は 400、それ以外は 500 扱い
       const status = /head_max_len|at least one question|options/i.test(message) ? 400 : 500;
-      sendJson(res, status, { error: message });
+      const clientError =
+        status === 400
+          ? 'リクエストが不正です。入力内容を確認してください。'
+          : 'サーバー内部でエラーが発生しました。';
+      sendJson(res, status, { error: clientError });
     }
     return;
   }
