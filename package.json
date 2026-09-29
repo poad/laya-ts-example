@@ -16,20 +16,20 @@
   },
   "dependencies": {
     "@receptron/laya": "^0.1.2",
-    "@solidjs/router": "^0.15.4",
+    "@solidjs/router": "^1.0.0",
     "solid-js": "^1.9.15"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.3.3",
     "@types/node": "^26.6.2",
     "eslint-plugin-solid": "^0.18.0",
-    "oxfmt": "^0.68.0",
+    "oxfmt": "^0.70.0",
     "oxlint": "^1.83.0",
     "postcss": "^8.5.28",
     "solid-devtools": "^0.34.5",
     "tailwindcss": "^4.3.3",
     "typescript": "^7.0.2",
-    "vite": "^7.3.6",
+    "vite": "^8.3.0",
     "vite-plugin-pages": "^0.33.3",
     "vite-plugin-solid": "^2.11.14"
   },
