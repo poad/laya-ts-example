@@ -23,7 +23,7 @@
     "@tailwindcss/postcss": "^4.3.3",
     "@types/node": "^26.6.2",
     "eslint-plugin-solid": "^0.18.0",
-    "oxfmt": "^0.70.0",
+    "oxfmt": "^0.71.0",
     "oxlint": "^1.83.0",
     "postcss": "^8.5.28",
     "solid-devtools": "^0.34.5",
