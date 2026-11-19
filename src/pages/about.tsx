@@ -6,7 +6,7 @@ export default function About() {
         <section class="rounded-xl border border-gray-200 bg-white p-4 shadow-sm">
           <h2 class="mb-2 font-semibold">構成</h2>
           <ul class="list-disc space-y-1 pl-5 text-sm">
-            <li>フロントエンド: Solid.js + vite-plugin-pages (このサイト)</li>
+            <li>フロントエンド: Solid.js v2 (このサイト)</li>
             <li>バックエンド: Node.js のローカル API サーバ (server/laya-server.mjs)</li>
             <li>推論: @receptron/laya (ONNX Runtime, PyTorch / Python 不要)</li>
             <li>開発時 Vite が /api を localhost:3001 にプロキシします</li>
