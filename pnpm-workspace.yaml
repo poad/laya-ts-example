@@ -11,9 +11,24 @@ blockExoticSubdeps: true
 
 minimumReleaseAge: 10080 # 7 days in minutes
 minimumReleaseAgeExclude:
-  - '@receptron/laya@0.1.2'
+  - pnpm@12.21.0
+
+  - '@solidjs/compiler@2.0.2'
+  - '@solidjs/compiler-darwin-arm64@2.0.2'
+  - '@solidjs/compiler-darwin-x64@2.0.2'
+  - '@solidjs/compiler-linux-arm64-gnu@2.0.2'
+  - '@solidjs/compiler-linux-x64-gnu@2.0.2'
+  - '@solidjs/compiler-wasm32-wasi@2.0.2'
+  - '@solidjs/compiler-win32-x64-msvc@2.0.2'
+  - '@solidjs/router@2.0.0'
+  - '@solidjs/signals@2.0.3'
+  - '@solidjs/vite-plugin@3.0.1'
+  - '@solidjs/web@2.0.3'
+  - solid-js@2.0.3
+  - eslint-plugin-solid@0.20.0
 
 overrides:
+  '@solidjs/compiler': 2.0.2
   minimatch@>=7.0.0 <11.0.1: ^11.0.1
   semver: '>=7'
   uuid: ^14.0.1

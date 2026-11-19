@@ -14,7 +14,7 @@ import {
   type SystemOneResponse,
 } from '../lib/laya';
 
-import { For, Show, createSignal, onMount } from 'solid-js';
+import { For, Show, createSignal, onSettled } from 'solid-js';
 
 const inputCls =
   'w-full rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm text-gray-900 focus:border-blue-500 focus:outline-none';
@@ -150,7 +150,7 @@ export default function Playground() {
     }
   };
 
-  onMount(() => {
+  onSettled(() => {
     void refreshHealth();
   });
 
