@@ -26,16 +26,16 @@
     "@types/node": "^26.6.6",
     "eslint-plugin-solid": "^0.20.0",
     "oxfmt": "^0.78.0",
-    "oxlint": "^1.92.0",
-    "postcss": "^8.5.32",
+    "oxlint": "^1.93.0",
+    "postcss": "^8.5.33",
     "tailwindcss": "^4.3.5",
     "typescript": "^7.0.2",
-    "vite": "^8.3.6"
+    "vite": "^8.3.8"
   },
   "devEngines": {
     "packageManager": {
       "name": "pnpm",
-      "version": "12.21.0",
+      "version": "12.23.0",
       "onFail": "download"
     },
     "runtime": {
