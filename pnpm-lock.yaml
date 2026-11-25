@@ -1358,8 +1358,8 @@ packages:
     peerDependencies:
       seroval: ^1.8.0
 
-  seroval@1.8.1:
-    resolution: {integrity: sha512-7z9x1flFYfZBz+LfDkXNfm5UIhZJ/97ASaV8Q1wctoVkeqVfv+tLPsWebeMXBNw6XprvwxDE5wC5Ylqmr+iSrA==}
+  seroval@1.8.2:
+    resolution: {integrity: sha512-zmMxi/9MdLK1MKazLmIP6Rk39RuK0Xydd+QHeOYntS37olJeTjB3+nwVj4ce/ZWiZJeRhcO5htfxt0mUzQBscQ==}
     engines: {node: '>=20'}
 
   solid-js@2.0.3:
@@ -1760,8 +1760,8 @@ snapshots:
   '@solidjs/web@2.0.3(solid-js@2.0.3)':
     dependencies:
       csstype: 3.2.4
-      seroval: 1.8.1
-      seroval-plugins: 1.8.0(seroval@1.8.1)
+      seroval: 1.8.2
+      seroval-plugins: 1.8.0(seroval@1.8.2)
       solid-js: 2.0.3
 
   '@tailwindcss/node@4.3.5':
@@ -2158,17 +2158,17 @@ snapshots:
     dependencies:
       type-fest: 0.20.2
 
-  seroval-plugins@1.8.0(seroval@1.8.1):
+  seroval-plugins@1.8.0(seroval@1.8.2):
     dependencies:
-      seroval: 1.8.1
+      seroval: 1.8.2
 
-  seroval@1.8.1: {}
+  seroval@1.8.2: {}
 
   solid-js@2.0.3:
     dependencies:
       '@solidjs/signals': 2.0.3
-      seroval: 1.8.1
-      seroval-plugins: 1.8.0(seroval@1.8.1)
+      seroval: 1.8.2
+      seroval-plugins: 1.8.0(seroval@1.8.2)
 
   source-map-js@1.2.2: {}
 
